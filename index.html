@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBridge - Learn, Grow, Succeed</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #2563eb;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 16px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2563eb;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #eaf2ff;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            color: #1d4ed8;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            background: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .section h2 {
+            text-align: center;
+            color: #1d4ed8;
+            margin-bottom: 25px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            line-height: 1.5;
+        }
+
+        footer {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>EduBridge</h1>
+        <p>Learn • Grow • Succeed</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#resources">Resources</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to EduBridge</h2>
+        <p>
+            EduBridge is a student-friendly educational platform
+            that connects learners with useful resources and
+            opportunities in one place.
+        </p>
+        <a href="#resources" class="button">Explore Resources</a>
+    </section>
+
+    <section class="section" id="resources">
+        <h2>Learning Resources</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📚 Study Materials</h3>
+                <p>
+                    Access useful study materials and educational
+                    information to support your learning.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💻 Technology</h3>
+                <p>
+                    Explore technology and improve your digital
+                    skills through continuous learning.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🎯 Career Opportunities</h3>
+                <p>
+                    Discover learning opportunities and build skills
+                    for your future career.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🚀 Skill Development</h3>
+                <p>
+                    Develop new skills and become more confident
+                    in your academic and professional journey.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <h2>About EduBridge</h2>
+        <p style="text-align:center; line-height:1.7;">
+            EduBridge aims to make education simple, accessible,
+            and student-friendly. Our goal is to help students
+            learn, explore opportunities, and grow their skills.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 EduBridge | Educational Hackathon Project</p>
+    </footer>
+
+</body>
+  </html>
